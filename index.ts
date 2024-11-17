@@ -19,10 +19,10 @@ const port : number = 3006;
 // const port : number | string = process.env.PORT || 3006;
 
 
-app.set("views", `${__dirname}/views`);
-app.set("view engine","pug");
+// app.set("views", `${__dirname}/views`);
+// app.set("view engine","pug");
 
-app.use(express.static(`${__dirname}/public`));
+// app.use(express.static(`${__dirname}/public`));
 
 // // parse application/x-www-form-urlencoded
 // app.use(bodyParser.urlencoded({ extended: false }))
